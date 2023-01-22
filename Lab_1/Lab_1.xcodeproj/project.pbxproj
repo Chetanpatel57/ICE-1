@@ -32,6 +32,8 @@
 		D121E80D297D8B9E0050A253 /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D121E7FB297D8B9E0050A253 /* yay.mp3 */; };
 		D121E80E297D8B9E0050A253 /* Dock51.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D121E7FD297D8B9E0050A253 /* Dock51.ttf */; };
 		D121E810297D8CD50050A253 /* ocean (1).png in Resources */ = {isa = PBXBuildFile; fileRef = D121E80F297D8CD50050A253 /* ocean (1).png */; };
+		D121E813297DD43E0050A253 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D121E812297DD43E0050A253 /* GameObject.swift */; };
+		D121E815297DDAC80050A253 /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D121E814297DDAC80050A253 /* GameProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,8 @@
 		D121E7FB297D8B9E0050A253 /* yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yay.mp3; sourceTree = "<group>"; };
 		D121E7FD297D8B9E0050A253 /* Dock51.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dock51.ttf; sourceTree = "<group>"; };
 		D121E80F297D8CD50050A253 /* ocean (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ocean (1).png"; path = "../../ocean (1).png"; sourceTree = "<group>"; };
+		D121E812297DD43E0050A253 /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		D121E814297DDAC80050A253 /* GameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 		D121E7D1297D84590050A253 /* Lab_1 */ = {
 			isa = PBXGroup;
 			children = (
+				D121E811297DD40F0050A253 /* Core */,
 				D121E7E9297D8B9E0050A253 /* Assets */,
 				D121E7D2297D84590050A253 /* AppDelegate.swift */,
 				D121E7D4297D84590050A253 /* GameScene.sks */,
@@ -153,6 +158,15 @@
 				D121E7FD297D8B9E0050A253 /* Dock51.ttf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		D121E811297DD40F0050A253 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D121E812297DD43E0050A253 /* GameObject.swift */,
+				D121E814297DDAC80050A253 /* GameProtocol.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D121E813297DD43E0050A253 /* GameObject.swift in Sources */,
+				D121E815297DDAC80050A253 /* GameProtocol.swift in Sources */,
 				D121E7D9297D84590050A253 /* GameScene.swift in Sources */,
 				D121E7DB297D84590050A253 /* GameViewController.swift in Sources */,
 				D121E7D3297D84590050A253 /* AppDelegate.swift in Sources */,
