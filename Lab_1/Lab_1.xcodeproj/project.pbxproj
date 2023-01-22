@@ -20,7 +20,6 @@
 		D121E801297D8B9E0050A253 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D121E7EE297D8B9E0050A253 /* backButton.png */; };
 		D121E802297D8B9E0050A253 /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = D121E7EF297D8B9E0050A253 /* plane.png */; };
 		D121E803297D8B9E0050A253 /* island.png in Resources */ = {isa = PBXBuildFile; fileRef = D121E7F0297D8B9E0050A253 /* island.png */; };
-		D121E804297D8B9E0050A253 /* ocean.gif in Resources */ = {isa = PBXBuildFile; fileRef = D121E7F1297D8B9E0050A253 /* ocean.gif */; };
 		D121E805297D8B9E0050A253 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = D121E7F2297D8B9E0050A253 /* cloud.png */; };
 		D121E806297D8B9E0050A253 /* nextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D121E7F3297D8B9E0050A253 /* nextButton.png */; };
 		D121E807297D8B9E0050A253 /* startButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D121E7F4297D8B9E0050A253 /* startButton.png */; };
@@ -31,9 +30,11 @@
 		D121E80C297D8B9E0050A253 /* thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D121E7FA297D8B9E0050A253 /* thunder.mp3 */; };
 		D121E80D297D8B9E0050A253 /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D121E7FB297D8B9E0050A253 /* yay.mp3 */; };
 		D121E80E297D8B9E0050A253 /* Dock51.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D121E7FD297D8B9E0050A253 /* Dock51.ttf */; };
-		D121E810297D8CD50050A253 /* ocean (1).png in Resources */ = {isa = PBXBuildFile; fileRef = D121E80F297D8CD50050A253 /* ocean (1).png */; };
 		D121E813297DD43E0050A253 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D121E812297DD43E0050A253 /* GameObject.swift */; };
 		D121E815297DDAC80050A253 /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D121E814297DDAC80050A253 /* GameProtocol.swift */; };
+		D121E818297DDCFD0050A253 /* Ocean1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D121E817297DDCFD0050A253 /* Ocean1.swift */; };
+		D121E81A297DDE060050A253 /* ocean.png in Resources */ = {isa = PBXBuildFile; fileRef = D121E819297DDE060050A253 /* ocean.png */; };
+		D121E81C297DE5CA0050A253 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D121E81B297DE5CA0050A253 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +52,6 @@
 		D121E7EE297D8B9E0050A253 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
 		D121E7EF297D8B9E0050A253 /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane.png; sourceTree = "<group>"; };
 		D121E7F0297D8B9E0050A253 /* island.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = island.png; sourceTree = "<group>"; };
-		D121E7F1297D8B9E0050A253 /* ocean.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ocean.gif; sourceTree = "<group>"; };
 		D121E7F2297D8B9E0050A253 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
 		D121E7F3297D8B9E0050A253 /* nextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextButton.png; sourceTree = "<group>"; };
 		D121E7F4297D8B9E0050A253 /* startButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startButton.png; sourceTree = "<group>"; };
@@ -62,9 +62,11 @@
 		D121E7FA297D8B9E0050A253 /* thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunder.mp3; sourceTree = "<group>"; };
 		D121E7FB297D8B9E0050A253 /* yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yay.mp3; sourceTree = "<group>"; };
 		D121E7FD297D8B9E0050A253 /* Dock51.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dock51.ttf; sourceTree = "<group>"; };
-		D121E80F297D8CD50050A253 /* ocean (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ocean (1).png"; path = "../../ocean (1).png"; sourceTree = "<group>"; };
 		D121E812297DD43E0050A253 /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
 		D121E814297DDAC80050A253 /* GameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
+		D121E817297DDCFD0050A253 /* Ocean1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean1.swift; sourceTree = "<group>"; };
+		D121E819297DDE060050A253 /* ocean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ocean.png; path = ../../ocean.png; sourceTree = "<group>"; };
+		D121E81B297DE5CA0050A253 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		D121E7D1297D84590050A253 /* Lab_1 */ = {
 			isa = PBXGroup;
 			children = (
+				D121E816297DDCBA0050A253 /* GameObjects */,
 				D121E811297DD40F0050A253 /* Core */,
 				D121E7E9297D8B9E0050A253 /* Assets */,
 				D121E7D2297D84590050A253 /* AppDelegate.swift */,
@@ -129,9 +132,8 @@
 				D121E7ED297D8B9E0050A253 /* plane1.png */,
 				D121E7EE297D8B9E0050A253 /* backButton.png */,
 				D121E7EF297D8B9E0050A253 /* plane.png */,
-				D121E80F297D8CD50050A253 /* ocean (1).png */,
+				D121E819297DDE060050A253 /* ocean.png */,
 				D121E7F0297D8B9E0050A253 /* island.png */,
-				D121E7F1297D8B9E0050A253 /* ocean.gif */,
 				D121E7F2297D8B9E0050A253 /* cloud.png */,
 				D121E7F3297D8B9E0050A253 /* nextButton.png */,
 				D121E7F4297D8B9E0050A253 /* startButton.png */,
@@ -167,6 +169,15 @@
 				D121E814297DDAC80050A253 /* GameProtocol.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		D121E816297DDCBA0050A253 /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+				D121E817297DDCFD0050A253 /* Ocean1.swift */,
+				D121E81B297DE5CA0050A253 /* Player.swift */,
+			);
+			path = GameObjects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,16 +239,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D121E807297D8B9E0050A253 /* startButton.png in Resources */,
+				D121E81A297DDE060050A253 /* ocean.png in Resources */,
 				D121E800297D8B9E0050A253 /* plane1.png in Resources */,
 				D121E7DE297D84590050A253 /* Main.storyboard in Resources */,
 				D121E803297D8B9E0050A253 /* island.png in Resources */,
 				D121E805297D8B9E0050A253 /* cloud.png in Resources */,
 				D121E809297D8B9E0050A253 /* yay.ogg in Resources */,
 				D121E7FE297D8B9E0050A253 /* plane3.png in Resources */,
-				D121E804297D8B9E0050A253 /* ocean.gif in Resources */,
 				D121E7D5297D84590050A253 /* GameScene.sks in Resources */,
 				D121E80A297D8B9E0050A253 /* engine.ogg in Resources */,
-				D121E810297D8CD50050A253 /* ocean (1).png in Resources */,
 				D121E7FF297D8B9E0050A253 /* plane2.png in Resources */,
 				D121E802297D8B9E0050A253 /* plane.png in Resources */,
 				D121E80D297D8B9E0050A253 /* yay.mp3 in Resources */,
@@ -263,6 +273,8 @@
 				D121E815297DDAC80050A253 /* GameProtocol.swift in Sources */,
 				D121E7D9297D84590050A253 /* GameScene.swift in Sources */,
 				D121E7DB297D84590050A253 /* GameViewController.swift in Sources */,
+				D121E81C297DE5CA0050A253 /* Player.swift in Sources */,
+				D121E818297DDCFD0050A253 /* Ocean1.swift in Sources */,
 				D121E7D3297D84590050A253 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
