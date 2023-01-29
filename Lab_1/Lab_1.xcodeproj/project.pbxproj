@@ -37,6 +37,7 @@
 		D121E81C297DE5CA0050A253 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D121E81B297DE5CA0050A253 /* Player.swift */; };
 		D159E4E92986E3B20072D766 /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159E4E82986E3B20072D766 /* Island.swift */; };
 		D159E4EB2986E3FA0072D766 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159E4EA2986E3F90072D766 /* Layer.swift */; };
+		D159E4ED2986E5E80072D766 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159E4EC2986E5E80072D766 /* Cloud.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		D121E81B297DE5CA0050A253 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		D159E4E82986E3B20072D766 /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
 		D159E4EA2986E3F90072D766 /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		D159E4EC2986E5E80072D766 /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				D121E817297DDCFD0050A253 /* Ocean.swift */,
 				D121E81B297DE5CA0050A253 /* Player.swift */,
 				D159E4E82986E3B20072D766 /* Island.swift */,
+				D159E4EC2986E5E80072D766 /* Cloud.swift */,
 			);
 			path = GameObjects;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				D159E4E92986E3B20072D766 /* Island.swift in Sources */,
 				D121E7D9297D84590050A253 /* GameScene.swift in Sources */,
 				D121E7DB297D84590050A253 /* GameViewController.swift in Sources */,
+				D159E4ED2986E5E80072D766 /* Cloud.swift in Sources */,
 				D121E81C297DE5CA0050A253 /* Player.swift in Sources */,
 				D159E4EB2986E3FA0072D766 /* Layer.swift in Sources */,
 				D121E818297DDCFD0050A253 /* Ocean.swift in Sources */,
