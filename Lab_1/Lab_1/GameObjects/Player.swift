@@ -30,16 +30,16 @@ class Player : GameObject
     }
     
     override func CheckBounds() {
-        if(position.x <= -310){
-            position.x = -310
+        if(position.x <= -320){
+            position.x = -320
         }
-        if(position.x >= 310){
-            position.x = 310
+        if(position.x >= 320){
+            position.x = 320
         }
     }
     
     override func Reset() {
-        position.y = -498
+        position.y = -640
     }
     
     func TouchMove(newPos: CGPoint){

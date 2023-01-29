@@ -8,6 +8,10 @@
 import SpriteKit
 import GameplayKit
 
+let screeSize = UIScreen.main.bounds
+var screenWidth: CGFloat?
+var screenHeight: CGFloat?
+
 class GameScene: SKScene {
     
     var ocean1: Ocean1?
@@ -15,6 +19,11 @@ class GameScene: SKScene {
     var player: Player?
     
     override func sceneDidLoad() {
+        
+        screenWidth = frame.width
+        screenHeight = frame.height
+        
+        
         name = "GAME"
         
         ocean1 = Ocean1()
@@ -22,7 +31,7 @@ class GameScene: SKScene {
         addChild(ocean1!)
         
         ocean2 = Ocean1()
-        ocean2?.position.y = -773
+        ocean2?.position.y = -627
         addChild(ocean2!)
         
         player = Player()
@@ -31,16 +40,16 @@ class GameScene: SKScene {
     }
     
     func touchDown(atPoint pos : CGPoint) {
-        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -495))
+        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -640))
     }
     
     func touchMoved(toPoint pos : CGPoint) {
-        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -495))
+        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -640))
         
     }
     
     func touchUp(atPoint pos : CGPoint) {
-        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -495))
+        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -640))
         
     }
     
